@@ -1,0 +1,22 @@
+/* HEADER */
+.menu-header {
+  position: absolute;
+  background-color:transparent;
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 99;
+}
+
+.menu-item {
+  padding: 1.5em;
+  text-decoration: none;
+  color: white;
+  font-size: 0.6em;
+  font-weight: 700;
+  font-family: sans-serif;
+  letter-spacing: 0.05rem;
+}

@@ -1,0 +1,41 @@
+/* HOME - principal*/
+.principal-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.principalImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.img-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #336efa;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.ghibli-tag {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8em;
+  color: white;
+}
+
+.ghibli-tag > h1 {
+  font-weight: 600;
+}
